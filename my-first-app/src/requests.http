@@ -1,0 +1,34 @@
+### add book
+POST http://localhost:3000/book/add
+content-type: application/json
+
+{
+    "name": "riya"
+}
+### add user
+POST http://localhost:3000/user/add
+content-type: application/json
+
+{
+    "name": "riya"
+}
+
+### get books
+GET http://localhost:3000/book
+
+###dummy-interceptor
+POST http://localhost:3000/app
+
+### Delete book
+DELETE http://localhost:3000/book/delete
+
+### update book
+PATCH http://localhost:3000/book/update
+content-type: application/json
+
+{
+    "name": "riya"
+}
+
+### book by id
+GET http://localhost:3000/book/1

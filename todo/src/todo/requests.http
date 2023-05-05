@@ -1,0 +1,21 @@
+### create todo by user id
+
+POST http://localhost:3000/todo/1
+content-type: application/json
+
+{
+    "title": "todo1"
+}
+
+### get not completed todo by user id
+GET http://localhost:3000/todo/findAllNotCompleted/1
+
+### get completed todo by user id
+GET http://localhost:3000/todo/findAllCompleted/1
+
+### update todo as completed with todo id
+PATCH http://localhost:3000/todo/2
+
+### delete todo as completed with todo id
+DELETE http://localhost:3000/todo/2
+

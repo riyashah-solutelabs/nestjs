@@ -1,0 +1,12 @@
+### create user
+
+POST http://localhost:3000/user
+content-type: application/json
+
+{
+    "firstName": "riya",
+    "lastName": "shah",
+    "age": "21",
+}
+
+GET http://localhost:3000/user

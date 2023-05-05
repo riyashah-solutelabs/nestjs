@@ -1,0 +1,36 @@
+### add book
+POST http://localhost:3000/book/add
+content-type: application/json
+
+{
+    "title": "book1",
+    "author": "riya",
+    "published": "18th april"
+}
+### update book
+PATCH http://localhost:3000/book/update/af0cace7-97d7-444e-b6d8-a87df7a746d1
+content-type: application/json
+
+{
+    "title": "book1 updated",
+    "author": "riya",
+    "published": "10th april"
+}
+
+### get books
+GET http://localhost:3000/book
+
+### Delete book
+DELETE http://localhost:3000/book/delete/09d8f669-dd43-4ca0-b427-e4954f36b629
+
+### update book
+PATCH http://localhost:3000/book/update
+content-type: application/json
+
+{
+    "name": "riya"
+}
+
+### book by id
+GET http://localhost:3000/book/1
+

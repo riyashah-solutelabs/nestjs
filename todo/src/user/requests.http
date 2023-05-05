@@ -1,0 +1,26 @@
+### create user
+
+POST http://localhost:3000/user/signup
+content-type: application/json
+
+{
+    "firstName": "riya",
+    "lastName": "shah",
+    "email": "riya@gmail.com",
+    "password": "riya"
+}
+
+###login
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "email": "shreya@gmail.com",
+    "password": "shreya"
+}
+
+### get all users
+GET http://localhost:3000/user
+
+### Delete user
+DELETE http://localhost:3000/user/2

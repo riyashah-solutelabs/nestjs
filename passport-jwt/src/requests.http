@@ -1,0 +1,12 @@
+### login
+
+POST http://localhost:3000/app/login
+content-type: application/json
+
+{
+    "username": "User2",
+    "password": "admin"
+}
+
+### authorization in this
+GET  http://localhost:3000/app/android-developer
